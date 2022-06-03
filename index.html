@@ -7,6 +7,9 @@
     <title>Group33 Development</title>
 
     <!-- stylesheets and fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Merriweather:ital@0;1&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="font/stylesheet.css">
@@ -27,11 +30,11 @@
                 <a class="nav-link" href="#welcome">Welcome</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Projects
+                   Projects
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" target="_blank" href="https://www.group48.com/">Group48</a></li>
@@ -46,16 +49,39 @@
           </div>
         </div>
       </nav>
-    <div>
-        <h1 id="welcome" class="title top-container">Group33 Development</h1>
+    <div id="welcome" class="container-fluid top-container">
+        <!-- <h1  class="title top-container">Group33 Development</h1> -->
         <div class="text-block-cntr">
-            <p>A collective of developers, project managers, and creatives delivering technology solutions</p>
-            <p>We want to work with you to make our world a better, cooler, more creative place!</p>
+          <img class="img-lg"src="images/Development.png" alt="">
+          <p>Group33 Development is a collective of developers, project managers, and creatives delivering technology solutions.</p>
+          <p>We want to work with you to make our world a better, cooler, more creative place!</p>
+          <p></p>
         </div>
     </div>
+    <div id="projects" class="container-fluid mid-container text-block-cntr">
+      <a href="projects.html" class="title txt-link">Projects</a>
+      <img class="img-lg back" src="images/unicornOutline2.png" alt="">
+    </div>
+    <div id="about" class="container-fluid btm-container">
+      <div class="">
+        <h1 class="title">Hello!</h1>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <p>this is placeholder text</p>
+          <br>
+          <br>
+          <br>
+        </div>
+        <div class="col-4">
+          <p>this is placeholder text</p>
+        </div>
+        <div class="col-4">
+          <p>this is placeholder text</p>
+        </div>
+      </div>
 
-
-
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
