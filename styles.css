@@ -42,12 +42,12 @@ h3, h2, h4 {
 }
 
 .hello-image {
-    width: 50%;
-    border: 5px solid;
+    width: 40%;
+    border: 5px solid #16697A;
     border-radius: 100%;
-    /* background-color: #9764C7; */
+    background-color: #FFA62B;
     float: left;
-    /* margin: 30px; */
+    margin: 15px;
   }
   
   .image-left {
@@ -59,7 +59,7 @@ h3, h2, h4 {
   }
 
   .social-icon {
-      padding: .25rem;
+    padding: .25rem;
   }
 
 /* links, buttons, forms */
