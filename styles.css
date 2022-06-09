@@ -1,17 +1,13 @@
 /* change */
-body {
-    background-color: #37E2D5;
-    font-family: 'Marcellus', 'serif';
-}
+body, html {
+    height: 100%;
+    font-family: 'marcellus', 'serif';
+  }
 
 .title {
-    font-family: 'art-nuvoregular';
     font-size: 5rem;
 }
 
-p {
-    font-family: 'Marcellus', 'serif';
-}
 /* Images */
 
 .img-md {
@@ -33,6 +29,8 @@ p {
 .txt-link {
     color: #072227;
 }
+
+/* Sections */
 
 /* Containers */
 
@@ -62,7 +60,7 @@ p {
 }
 
 /* NavBar */
-.navbar, .nav-item, .nav-link {
+.navbar, .nav-item, .nav-link, .navbar-brand {
     color:  #ff26b9;
     background-color: #072227 ;
 }
