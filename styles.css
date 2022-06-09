@@ -1,12 +1,22 @@
 /* change */
-body, html {
-    height: 100%;
+body {
+    background-color: #F8F1F1;
     font-family: 'marcellus', 'serif';
   }
 
 .title {
     font-size: 5rem;
+    color: #16697A;
 }
+
+h1 {
+    color:#16697A;
+}
+
+h3, h2, h4 {
+    color: #DB6400;
+}
+
 
 /* Images */
 
@@ -27,6 +37,27 @@ body, html {
     height: auto;
     padding: .5rem;
 }
+
+.hello-image {
+    width: 50%;
+    border: 5px solid;
+    border-radius: 100%;
+    /* background-color: #9764C7; */
+    float: left;
+    /* margin: 30px; */
+  }
+  
+  .image-left {
+    float: left;
+  }
+  
+  .image-right {
+    float: right;
+  }
+
+  .social-icon {
+      padding: .25rem;
+  }
 
 /* links, buttons, forms */
 
@@ -65,8 +96,8 @@ body, html {
 
 /* NavBar */
 .navbar, .nav-item, .nav-link, .navbar-brand, .btn {
-    color:  #ff26b9;
-    background-color: #072227 ;
+    color:  #FFA62B;
+    background-color: #16697A ;
 }
 
 .navbar-collapse {
@@ -75,14 +106,14 @@ body, html {
 }
 
 .nav-item:hover, .nav-link:hover, .navbar-brand:hover, .txt-link:hover, .btn:hover {
-    color: #ff26b9;
+    color: #FFA62B;
     text-shadow:
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px #ff26b9,
-    0 0 82px #ff26b9,
-    0 0 92px #ff26b9,
-    0 0 102px #ff26b9,
-    0 0 151px #ff26b9;
+    0 0 42px #FFA62B,
+    0 0 82px #FFA62B,
+    0 0 92px #FFA62B,
+    0 0 102px #FFA62B,
+    0 0 151px #FFA62B;
 }
