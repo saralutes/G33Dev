@@ -95,7 +95,7 @@ h3, h2, h4 {
 }
 
 /* NavBar */
-.navbar, .nav-item, .nav-link, .navbar-brand, .btn {
+.navbar, .nav-item, .nav-link, .navbar-brand, .btn, .footer {
     color:  #FFA62B;
     background-color: #16697A ;
 }
