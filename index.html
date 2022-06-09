@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#welcome">Welcome</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Get on the List!</a>
+                <a class="nav-link" href="#list">Get on the List!</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -55,23 +55,46 @@
         <div>
           <h1  class="title top-container">Get ready for something awesome...</h1>
         </div>
-        <div class="container-fluid text-start row">
-          <div class="col-6">
+        <div class="container-fluid row">
+          <div class="col-6 text-start ">
             <ul>
               <li>Monitor your blockchain transactions across mulitple platforms via telegram - no more logging in to mulitple exchanges and wallets to know if your trade went through!</li>
+             <li>Safe and secure with read only access and notifications via telegram - no identifying information or email needed</li>
+             <li>Subscribe during Consensus and be among the first to get access to the EZWatcher telegram app!</li>
             </ul>
-          </div>
-          <div class="col-6 cntr">
-            <img src="images/appdemo2.jpg" alt="">
+            <form class="mid-container text-start" id="list">
+              <div class="form-row align-items-center">
+                <div class="col-auto">
+                  <label class="sr-only" for="inlineFormInputGroup"><h3>Get on the list!</h3></label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Telegram Username">
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+              </div>
+            </form>
+            <div>
+              <h3>Don't have a Telegram yet?</h3>
+              <p>Submit your email below. When the app goes live, we will not only send you a notification but will also include detailed instructions for setting up your Telegram account!</p>
+            </div>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
           <div class="col-6">
-            <ul>
-              <li>Safe and secure with read only access and notifications via telegram - no identifying information or email needed</li>
-              <li>Subscribe during Consensus and be among the first to get access to the EZWatcher telegram app!</li>
-            </ul>
-          </div>
-          <div class="col-6 cntr">
-            <img src="images/appdemo1.jpg" alt="">
+            <br>
+            <br>
+            <img class="rounded img-xlg" src="images/appdemo1.jpg" alt="">
           </div>
           <!-- <p>Group33 Development is a collective of developers, project managers, and creatives delivering technology solutions.</p>
           <p>We want to work with you to make our world a better, cooler, more creative place!</p> -->
@@ -79,10 +102,6 @@
         <div class="mid-container">
           <h2>EZWatcher is the one app to rule them all - at least all of your blockchain transactions!</h2>
         </div>
-    </div>
-    <div id="projects" class="container-fluid mid-container text-block-cntr">
-      <a href="projects.html" class="title txt-link">Projects</a>
-      <img class="img-lg" src="images/unicornOutline2.png" alt="">
     </div>
     <div id="contact" class="container-fluid btm-container">
       <div class="">

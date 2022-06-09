@@ -22,9 +22,13 @@ body, html {
     padding: .5rem;
 }
 
-/* .back {
-    background-image: -o-linear-gradient();
-} */
+.img-xlg {
+    width: 65%;
+    height: auto;
+    padding: .5rem;
+}
+
+/* links, buttons, forms */
 
 .txt-link {
     color: #072227;
@@ -60,7 +64,7 @@ body, html {
 }
 
 /* NavBar */
-.navbar, .nav-item, .nav-link, .navbar-brand {
+.navbar, .nav-item, .nav-link, .navbar-brand, .btn {
     color:  #ff26b9;
     background-color: #072227 ;
 }
@@ -70,7 +74,7 @@ body, html {
     flex-grow: 0;
 }
 
-.nav-item:hover, .nav-link:hover, .navbar-brand:hover, .txt-link:hover {
+.nav-item:hover, .nav-link:hover, .navbar-brand:hover, .txt-link:hover, .btn:hover {
     color: #ff26b9;
     text-shadow:
     0 0 7px #fff,
